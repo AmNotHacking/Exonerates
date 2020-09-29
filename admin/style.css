@@ -1,0 +1,44 @@
+body {
+    background-size: cover;
+    background-color: rgba(0,0,50,0.5);
+    paddding: 10px;
+}
+
+.login-box {
+    max-width : 700px;
+    float: none;
+    margin: 150px auto;
+}
+
+.login-left {
+    background: rgba(211, 211, 211, 0.5);
+    padding: 30px;
+}
+.login-right {
+    background: #ffffff;
+    padding: 30px;
+}
+
+
+.form-control {
+    background-color: transparent !important;
+}
+
+@media screen and (min-width: 800px) {
+    table {
+        width: 90%;
+    }
+}
+@media screen and (min-width: 1000px) {
+    table {
+        width: 80%;
+    }
+}
+.unselectable {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}

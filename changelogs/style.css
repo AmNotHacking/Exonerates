@@ -1,0 +1,65 @@
+
+.box {
+    width: 100%;
+    background-color: rgba(25,25,25,500);
+    box-shadow: 0 0 0 1px #323232, 0 0 0 2px #000, 0 0 7px 3px #efa0f5;
+    padding: 20px;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+}
+#blur {
+    font-size: 40px;
+    color: transparent;
+    text-shadow: 0 0 8px #000;
+}
+body{
+    margin: 0;
+    color: white;
+    overflow-x: hidden;
+    background-color: rgba(28,29,29,0.27)
+}
+.content {
+    text-align: center;
+    color: white;
+}
+.date {
+    color: #f5e1ff;
+}
+.added {
+    border-radius: 0.315em;
+    border: 1px solid rgba(120,255,95,0.61);
+    background-color: rgba(120, 255, 95, 0.33);
+    font-size: 0.9em;
+    color: white;
+}
+.fixed {
+    border-radius: 0.315em;
+    border: 1px solid rgba(106, 169, 255, 0.61);
+    background-color: rgba(55, 122, 255, 0.33);
+    font-size: 0.9em;
+    color: white;
+}
+.removed {
+    border-radius: 0.315em;
+    border: 1px solid rgba(255, 35, 33, 0.61);
+    background-color: rgba(255, 0, 32, 0.33);
+    font-size: 0.9em;
+    color: white;
+}
+.content code {
+
+}
+.content ul {
+    border-radius: 0.315em;
+    border: 1px solid rgba(236, 120, 165, 0.61);
+    background-color: rgba(230, 91, 160, 0.33);
+    padding: 0 0.3em 0.040em;
+}
+.content ul p {
+    color: #f68cff;
+    font-size: 1.3em;
+}
+.content li {
+    list-style-type: none;
+
+}

@@ -1,0 +1,36 @@
+body {
+    background-size: cover;
+    background-color: rgba(0,0,50,0.5);
+    paddding: 10px;
+}
+
+.login-box {
+    max-width : 700px;
+    float: none;
+    margin: 150px auto;
+}
+
+.login-left {
+    background: rgba(211, 211, 211, 0.5);
+    padding: 30px;
+}
+.login-right {
+    background: #ffffff;
+    padding: 30px;
+}
+.form-control {
+    background-color: transparent !important;
+}
+.form-group {
+    width: fit-content;
+}
+#tabs {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -50px;
+    margin-left: -50px;
+    width: 100px;
+    height: 100px;
+
+}
